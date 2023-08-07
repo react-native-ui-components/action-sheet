@@ -1,6 +1,6 @@
 {
 	"name": "@react-native-ui-components/action-sheet",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
 	"repository": "git@github.com:react-native-ui-components/action-sheet.git",
