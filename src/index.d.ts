@@ -18,6 +18,7 @@ export interface ActionSheetParameters {
 	userInterfaceStyle?: string;
 }
 
-export declare const ActionSheet: (
-	params: ActionSheetParameters
-) => void;
+export declare const ActionSheet: {
+	open: (params: ActionSheetParameters) => void,
+	close: () => void
+}
