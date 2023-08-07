@@ -8,16 +8,16 @@ export interface ActionSheetAction {
 	onPress?: () => void;
 }
 
-export interface ActionSheetProps {
+export interface ActionSheetParameters {
 	title?: string;
 	message?: string;
 	actions: ActionSheetAction[];
 	tintColor?: string;
 	cancelButtonTintColor?: string;
-	anchor: number;
-	userInterfaceStyle: string;
+	anchor?: number;
+	userInterfaceStyle?: string;
 }
 
 export declare const ActionSheet: (
-	props: ActionSheetProps
-) => FunctionComponent<ActionSheetProps>;
+	params: ActionSheetParameters
+) => void;
