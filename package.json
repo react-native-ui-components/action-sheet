@@ -1,6 +1,6 @@
 {
 	"name": "@react-native-ui-components/action-sheet",
-	"version": "1.0.3",
+	"version": "1.1.0",
 	"description": "Action sheet component for React Native",
 	"main": "lib/commonjs/index",
 	"module": "lib/module/index",
