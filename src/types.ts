@@ -1,5 +1,3 @@
-import {FunctionComponent} from "react";
-
 export interface ActionSheetAction {
 	title: string;
 	cancel?: boolean;
@@ -15,10 +13,5 @@ export interface ActionSheetParameters {
 	tintColor?: string;
 	cancelButtonTintColor?: string;
 	anchor?: number;
-	userInterfaceStyle?: string;
-}
-
-export declare const ActionSheet: {
-	open: (params: ActionSheetParameters) => void,
-	close: () => void
+	userInterfaceStyle?: "light" | "dark";
 }
